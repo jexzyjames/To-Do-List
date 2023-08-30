@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: darkslategray;
+}
+.wrapper{
+    background: steelblue;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-bottom: 2rem;
+    transition: all 0.4s ease;
+
+}
+.ul{
+    /* display: none; */
+    transition: all 0.4s ease;
+}
+input{
+    word-break: break-all;
+    word-wrap: break-word;
+    width: 100px;
+
+
+}
+#text{
+    flex: 1;
+    outline: 0;
+    background: transparent;
+    padding: 5px 10px;
+    transition: all 0.4s ease;
+    
+    border: 0;
+    color: aqua;
+    font-weight: 800;
+    font-size: 15px;
+    caret-color: blueviolet;
+}
+::placeholder{
+    color: aquamarine;
+}
+#btn{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 0;
+    color:azure;
+    outline: 0;
+    transition: all 0.4s ease;
+
+    background: #3aa;
+    cursor: pointer;
+}
+.ul{
+    background: steelblue;
+    transition: all 0.4s ease;
+
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    /* display: none; */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 400px;
+
+}
+#list{
+    flex: 1;
+    padding: 5px 10px;
+    transition: all 0.4s ease;
+
+
+}
+.item{
+    color: aquamarine;
+    font-weight: 800;
+    font-size: 20px;
+    flex: 1;
+    outline: 0;
+    background: transparent;
+    padding: 5px 10px;
+    border: 0;
+    transition: all 0.4s ease;
+
+    font-weight: 800;
+    font-size: 15px;
+    caret-color: blueviolet;
+}
+.buttons{
+    display: flex;
+    transition: all 0.4s ease;
+
+}
+.edit, .del{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 0;
+    color:azure;
+    outline: 0;
+    cursor: pointer;
+    transition: all 0.4s ease;
+
+    background: #3aa;
+}
+.edit{
+    background: red;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
